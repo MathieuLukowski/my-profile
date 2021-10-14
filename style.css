@@ -1,0 +1,94 @@
+
+h1{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 44px;
+	font-weight:bold ;
+	box-shadow: 2px 2px 10px #14274E;
+	color: #14274E;
+
+}
+body{
+	background-color:#F1F6F9 ;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 24px;
+
+}
+h2{
+	text-align: center;
+	color: #14274E;
+	font-size: 36px;
+	font-family: 'Quicksand', sans-serif;
+	box-shadow: 2px 2px 3px #14274E;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	transition: color, font-size 0.6s ease;
+
+}
+a:hover{
+	color: #336699;
+	font-size: 30px;
+
+}
+li{
+	font-size: 50px;
+	display: inline;
+	padding: 0 80px;
+}
+ul{
+	text-align: center;
+}
+
+
+
+
+img{
+	width:250px;
+}
+
+#insta{
+	text-decoration: none;
+	color: black;
+	transition: color, font-size 0.6s ease;
+}
+#insta:hover{
+	color: #744FC6;
+	font-size: 70px;
+}
+
+
+#facebook{
+	text-decoration: none;
+	color: black;
+	transition: color, font-size 0.6s ease;
+}
+#facebook:hover{
+	color: #336699;
+	font-size: 70px;
+}
+
+#twitter{
+	text-decoration: none;
+	color: black;
+	transition: color, font-size 0.6s ease;
+}
+#twitter:hover{
+	color: #2892D7;
+	font-size: 70px;
+}
+
+/* MEDIA QUERIES */
+@media (min-width:  576px) and (max-width:  767px){
+.container {
+width : 720px ;
+}
+ }
+
+ @media (max-width:  576px){
+.container {
+width : 100%
+}
+ }
